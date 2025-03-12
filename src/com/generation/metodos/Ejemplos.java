@@ -75,4 +75,11 @@ public class Ejemplos {
             return consumo * 0.20f;
         }
     }
+
+    public static int getFactorialR(int n){
+        if( n == 0) return 1; /*condicion para detener la recursividad*/
+        return n * getFactorialR(n - 1 );
+    }
+
+
 }

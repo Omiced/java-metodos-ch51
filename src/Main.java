@@ -23,6 +23,9 @@ public class Main {
         int suma = sumar(2,4);
         System.out.println(suma);
 
+        System.out.println(Ejemplos.getFactorialR(8));
+        System.out.println(Ejemplos.getFactorialR(5));
+
     }
 
     public static int sumar(int a, int b){
